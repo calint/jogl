@@ -8,9 +8,5 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="lwjgl/lwjgl_util.jar"/>
-	<classpathentry kind="lib" path="lwjgl/lzma.jar"/>
-	<classpathentry kind="lib" path="lwjgl/lwjgl_test.jar"/>
-	<classpathentry kind="lib" path="lwjgl/lwjgl_util_applet.jar"/>
-	<classpathentry kind="lib" path="lwjgl/lwjgl-debug.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
