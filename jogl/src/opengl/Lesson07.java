@@ -40,8 +40,8 @@ public class Lesson07{
 		Display.setTitle(windowTitle);
 		Display.create();
 		Texture texture1=TextureLoader.getTexture("BMP",new FileInputStream(new File("Crate.bmp")),true,GL11.GL_LINEAR);
-		Texture texture2=TextureLoader.getTexture("BMP",new FileInputStream(new File("Crate.bmp")),true,GL11.GL_LINEAR_MIPMAP_LINEAR);
-		Texture texture3=TextureLoader.getTexture("BMP",new FileInputStream(new File("Crate.bmp")),true,GL11.GL_LINEAR_MIPMAP_NEAREST);
+		Texture texture2=TextureLoader.getTexture("BMP",new FileInputStream(new File("Crate.bmp")),true,GL11.GL_LINEAR);
+		Texture texture3=TextureLoader.getTexture("BMP",new FileInputStream(new File("Crate.bmp")),true,GL11.GL_LINEAR);
 		texture=new int[]{texture1.getTextureID(),texture2.getTextureID(),texture3.getTextureID()};
 		GL11.glEnable(GL11.GL_TEXTURE_2D);
 		GL11.glShadeModel(GL11.GL_SMOOTH);
