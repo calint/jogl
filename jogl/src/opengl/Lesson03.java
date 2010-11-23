@@ -1,5 +1,4 @@
 package opengl;
-import org.lwjgl.LWJGLException;
 import org.lwjgl.input.Keyboard;
 import org.lwjgl.opengl.Display;
 import org.lwjgl.opengl.DisplayMode;
@@ -7,10 +6,10 @@ import org.lwjgl.opengl.GL11;
 import org.lwjgl.util.glu.GLU;
 public class Lesson03{
 
-	public static void main(String args[]) throws LWJGLException{
+	public static void main(String args[]) throws Throwable{
 		new Lesson03();
 	}
-	public Lesson03() throws LWJGLException{
+	public Lesson03() throws Throwable{
 		final String windowTitle="Adding Color";
 		Display.setFullscreen(false);
 		DisplayMode d[]=Display.getAvailableDisplayModes();
