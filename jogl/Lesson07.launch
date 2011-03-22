@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/jogl/src/opengl/Lesson02.java"/>
+<listEntry value="/lwjgl/src/opengl/Lesson07.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
@@ -10,7 +10,7 @@
 <listEntry value="org.eclipse.debug.ui.launchGroup.debug"/>
 <listEntry value="org.eclipse.debug.ui.launchGroup.run"/>
 </listAttribute>
-<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="opengl.Lesson02"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="jogl"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="opengl.Lesson07"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="lwjgl"/>
 <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Djava.library.path=/sdk/lwjgl/native/linux/"/>
 </launchConfiguration>
