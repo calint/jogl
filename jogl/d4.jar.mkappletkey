@@ -1,0 +1,1 @@
+keytool -genkey -alias d4.applet -validity 3650
